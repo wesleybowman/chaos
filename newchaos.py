@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 
 r=1+np.sqrt(8)
-r=3.5
+#r=3.5
 x0 = 0.3
 n= 100
 x=[]
@@ -42,7 +42,7 @@ r = np.arange(3,4,0.001)
 #for r in rs:
 xn1=np.random.rand(1);
 lyp=0;
-for k in xrange(0,10000):
+for k in xrange(0,10300):
     xn=xn1;
     #logistic map
     xn1=r*xn*(1-xn);
